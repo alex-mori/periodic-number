@@ -1,0 +1,37 @@
+body{
+    background-color: #bababa;
+    .hidden{
+        display: none;
+    }
+}
+
+.container{
+    margin-top: 20px;
+}
+
+.main-form {
+    margin-bottom: 20px;
+}
+
+#display-fraction{
+    margin: 5px;
+    width: 1110px;
+    height: 24px;
+}
+
+#show-num {
+    span {
+        margin: 0 -2px;
+    }
+}
+
+.show-periodic-part{
+    border-top: 1px solid black;
+}
+
+.show-only-sx {
+    @media (min-width: 640px) {
+        display: none;
+    }
+}
+

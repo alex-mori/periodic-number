@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>periodic number</title>
+    <script type='text/javascript' src="./convertion.boundle.js"></script>
+</head>
+<body>
+    <h1 class="title col-12 text-center">CONVERTER OF A PERIODIC NUMBER</h1>
+    <div class="container">
+        <div class="row">
+            <form class="col-md-6 col-12 main-form" id="main-form" action="prova.html">
+                <div class='input-element col-md-6'>
+                    <div>    
+                        <label class="row" style="margin-bottom: 2px;">
+                            <span class="col-6 text-right">WHOLE</span>
+                            <span class="col-6">
+                                <input type="text" id="whole-num">
+                            </span>
+                        </label>
+                    </div>
+                    <div class="row">
+                        <label class="col-6 text-right"><input type="checkbox" id="able-dec" checked="true"/>DECIMAL </label>
+                        <span class="col-6"><input type="text" id="dec-num"></span>
+                    </div>
+                    <div>
+                        <label class="row">
+                            <span class="col-6 text-right">PERIODIC</span>
+                            <span class="col-6">
+                                <input type="text" id="per-num">
+                            </span>
+                        </label>
+                    </div>
+                    <div class="text-center">
+                        <div id="display-number"></div>
+                        <button id="start-conv" class="btn btn-success">CONVERT</button>
+                    </div>
+                </div>
+            </form>
+            <div class="col-md-6 col-12">
+                <div id="show-num" class="text-center col-12">
+                    <div class="show-only-sx">Number</div>
+                    <span  id="show-whole-part"></span>.
+                    <span  id="show-dec-part"></span>
+                    <span id="show-periodic-part" class="show-periodic-part"></span>
+                </div>
+                <div id="display-fraction" class="text-center col-12"></div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
